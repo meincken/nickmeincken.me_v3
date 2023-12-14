@@ -1,70 +1,78 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
-mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
-intro:
-  blurbs:
-    - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+title: Meincken
+hero:
+  image: /img/header-background.jpg
+  heading: Meincken
+  subheading: Front End Developer
+  description: I'm a London based Front End Developer. I build websites and
+    component libraries for pretty much anything.
+aboutme:
+  image: /img/profilepic.jpg
+  title: About Me
+  description: I am an experienced AEM Front End Developer. I specialise in
+    creating clean semantic code to ensure fast load times. A champion of atomic
+    design principles and where possible, develop style guides and pattern
+    libraries to ensure consistent and rapid development when working as part of
+    a team. I am as comfortable coding in raw HTML as I am using products such
+    as React. I enjoy working as part of an Agile team and have worked on some
+    of the countries largest e-commerce sites.
+education:
+  title: Education
+  courses:
+    - title: AEM Sites developer
+      course: Adobe Training Center
+      year: March 2015
+    - title: The Community College Hackney
+      course: BTEC Web Authoring Level II (distinction)
+      year: March 2006
+    - title: Spelthorne College, Middlesex
+      course: BTEC Photography & Business Skills
+      year: April 1997
+contracts:
+  title: Contracts
+skills:
+  title: Skills
+  description: " I am a competent Front End Developer with good skills with many
+    frameworks and content management systems. Below is my level of
+    competency  with various technologies."
+  skillset:
+    - level: 90
+      name: AEM
+    - level: 90
+      name: Wordpress
+    - level: 90
+      name: HTML5
+    - level: 80
+      name: JavaScript/Jquery
+    - level: 99
+      name: CSS
+    - level: 90
+      name: ReactJS/Gastby
+    - level: 80
+      name: Git
+    - level: 70
+      name: Email build
+work:
+  heading: Check out some of my previous work
+  project:
+    - title: Virgin Media
+      description: I built out a styleguide and pattern library as well as a number of
+        components for AEM6.
+      url: https://virginmedia.com/
+      image: /img/virginmedia-logo.png
+    - title: BT Business
+      description: I have built components for AEM for use in Email and integration
+        into ACM.
+      url: https://business.bt.com/
+      image: /img/bt_logo_white.png
+    - title: meincken.com
+      description: Personal blog for me, I plan on using this to host my other off web
+        projects in the future and updates on my adventures.
+      url: https://meincken.com
+      image: /img/meincken.png
+    - title: Belmond
+      description: I built components for this site whilst working for MOF.
+      url: https://www.belmond.com/
+      image: /img/belmond-logo.png
 ---

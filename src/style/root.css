@@ -1,0 +1,117 @@
+:root {
+  --brand: rgb(169, 204, 23);
+  --darkbg: #1e1e1e;
+  --lightbg: #e1e1e1;
+  --black: #000;
+  --white: #fff;
+  --grid: [full-start] minmax(1rem, 1fr) [main-start] minmax(0px, 104rem) [main-end] minmax(1rem, 1fr) [full-end];
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 200;
+  line-height: 1.5;
+}
+
+.resume {
+  background: var(--darkbg);
+  color: var(--lightbg);
+}
+
+.section {
+  display: grid;
+  column-gap: 1rem;
+  grid-template-columns: var(--grid);
+
+  & > * {
+    grid-column: main;
+  }
+}
+
+a {
+  color: var(--brand);
+}
+
+.stretched-link::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content: "";
+}
+
+svg {
+  fill: currentColor
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 200;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+
+.section {
+  & .container {
+    display: grid;
+    grid-template-columns: 30rem 1fr;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+
+  &:not(:last-child) {
+    border-bottom: 0.1rem solid rgb(225, 225, 225);
+    padding-bottom: 5rem;
+  }
+
+  & header {
+    & h2 {
+      border-bottom: 3px solid rgb(169, 204, 23);
+      float: left;
+    }
+
+    & p {
+      margin-bottom: 1.6rem;
+    }
+  }
+
+
+  & article {
+    grid-column-start: 2;
+    margin-bottom: 2rem;
+  }
+}
+
+.btn {
+  background: rgb(169, 204, 23);
+  border-radius: 5px;
+  color: rgb(30, 30, 30);
+  display: block;
+  margin-top: 6px;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.5s ease 0s;
+
+  &:hover {
+
+  }
+}

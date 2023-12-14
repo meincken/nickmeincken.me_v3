@@ -1,0 +1,28 @@
+.about {
+  background: var(--darkbg);
+  color: var(--lightbg);
+
+  & p,
+  & h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  & img {
+    border-radius: 50%;
+    display: block;
+    height: 12rem;
+    margin: 0px auto;
+    width: 12rem;
+  }
+
+  & .split {
+    align-self: start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  & a {
+    display: block;
+
+  }
+}
