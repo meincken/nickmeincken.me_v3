@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Helmet } from 'react-helmet'
 import '../style/normalize.css'
+import '../style/resume.css'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 

@@ -8,7 +8,7 @@ class ContractorHistory extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <section id='resume' className='section contracts'>
+      <section className='contracts'>
         <div className='container'>
           <header>
             <h2>Employment History</h2>
@@ -19,11 +19,9 @@ class ContractorHistory extends React.Component {
                 key={post.id}
                 className={`${post.frontmatter.break ? ' break' : ''}`}
               >
-                <header>
-                  <div>
-                    <h3>{post.frontmatter.title}</h3>
-                    <p><strong>{post.frontmatter.jobTitle}</strong> {post.frontmatter.startDate} - {post.frontmatter.finishDate}</p>
-                  </div>
+                <header className='resume-position-header'>
+                  <h3>{post.frontmatter.title}</h3>
+                  <p><strong>{post.frontmatter.jobTitle}</strong> {post.frontmatter.startDate} - {post.frontmatter.finishDate}</p>
                 </header>
                 <div
                   dangerouslySetInnerHTML={{

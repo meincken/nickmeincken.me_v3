@@ -6,7 +6,7 @@ date: 2020-07-21T13:00:17.774Z
 startDate: Nov 2009
 finishDate: Aug 2016
 columns: twelve
-break: true
+break: false
 description: One of the UK's leading entertainment and communication providers,
   I was a member of a team of developers working on moving Virgin Media to a
   fully responsive website and migrating from multiple instances of CQ5 to a
