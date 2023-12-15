@@ -54,8 +54,14 @@ ul {
   gap: 2rem;
 
   & .resume-position-header {
+    align-items: end;
+    font-size: 1.2rem;
     display: flex;
     justify-content: space-between;
+  }
+
+  & .role {
+    margin-bottom: .5rem;
   }
 
   & progress {

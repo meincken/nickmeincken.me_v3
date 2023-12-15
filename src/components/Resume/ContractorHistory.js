@@ -17,7 +17,7 @@ class ContractorHistory extends React.Component {
             posts.map(({ node: post }) => (
               <article
                 key={post.id}
-                className={`${post.frontmatter.break ? ' break' : ''}`}
+                className={`role ${post.frontmatter.break ? 'break' : ''}`}
               >
                 <header className='resume-position-header'>
                   <h3>{post.frontmatter.title}</h3>
