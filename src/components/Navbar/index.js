@@ -28,6 +28,11 @@ const Navbar = () => {
               </a>
             </li>
             <li>
+              <a onClick={() => scrollTo('#skills')}>
+                skills
+              </a>
+            </li>
+            <li>
               <a onClick={() => scrollTo('#works')}>
                 works
               </a>

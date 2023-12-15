@@ -50,8 +50,11 @@ ul {
 
 .resume-body {
   display: grid;
-  grid-template-columns: 35rem 1fr;
-  gap: 2rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 35rem 1fr;
+    gap: 2rem;
+  }
 
   & .resume-position-header {
     align-items: end;

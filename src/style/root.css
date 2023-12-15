@@ -66,10 +66,13 @@ h3 {
 
 .section {
   & .container {
-    display: grid;
-    grid-template-columns: 30rem 1fr;
     margin-top: 5rem;
     margin-bottom: 5rem;
+
+    @media (min-width: 768px) {
+      display: grid;
+      grid-template-columns: 30rem 1fr;
+    }
   }
 
 
@@ -81,7 +84,10 @@ h3 {
   & header {
     & h2 {
       border-bottom: 3px solid rgb(169, 204, 23);
-      float: left;
+
+      @media (min-width: 768px) {
+        float: left;
+      }
     }
 
     & p {
