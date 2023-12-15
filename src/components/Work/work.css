@@ -21,7 +21,7 @@
   }
 }
 
-.project {
+section .project {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -31,6 +31,7 @@
   background: rgb(30, 30, 30);
   overflow: hidden;
   transition: all 0.3s ease-in-out 0s;
+  margin-bottom: 0;
 
   & .overlay {
     height: 100%;

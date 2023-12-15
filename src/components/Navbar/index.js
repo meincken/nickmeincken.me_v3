@@ -1,36 +1,36 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import scrollTo from 'gatsby-plugin-smoothscroll';
 import './navbar.css'
 
 const Navbar = () => {
   return (
     <header className='header'>
       <nav
-        className="navbar is-transparent"
+        className="navbar"
         role="navigation"
         aria-label="main-navigation"
       >
         <div className="container">
           <ul>
             <li>
-              <Link to="#home">
+              <a onClick={() => scrollTo('#home')}>
                 home
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="#about">
+              <a onClick={() => scrollTo('#about')}>
                 about
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="#resume">
+              <a onClick={() => scrollTo('#resume')}>
                 resume
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="#works">
+              <a onClick={() => scrollTo('#works')}>
                 works
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
