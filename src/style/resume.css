@@ -77,6 +77,19 @@ ul {
   }
 }
 
+.resume-group-links {
+  display: flex;
+  justify-content: center;
+
+  & a {
+    margin: 2rem;
+  }
+}
+
+.resume-footer {
+  text-align: center;
+}
+
 .contact-info-print {
   display: none;
 }
@@ -91,6 +104,7 @@ ul {
   }
 
   h1 {
+    line-height: 1;
     margin: 0;
   }
 

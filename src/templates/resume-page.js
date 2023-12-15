@@ -17,7 +17,7 @@ export const ResumePageTemplate = ({
 
   return (
     <div className='resume'>
-      <div className={`hidden-print-block`}>
+      <div className={`resume-group-links hidden-print-block`}>
         <Link className={`btn`} to={`/`}>
           Home
         </Link>
@@ -55,7 +55,7 @@ export const ResumePageTemplate = ({
           <ContractorHistory />
         </section>
       </article>
-      <footer className="hidden-print-block">
+      <footer className="resume-footer hidden-print-block">
         <p>References available upon request</p>
         <p>{`\u00a92000 -  ${new Date().getFullYear()} ${title}`}</p>
       </footer>
