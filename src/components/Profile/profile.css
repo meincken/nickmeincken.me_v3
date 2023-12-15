@@ -10,9 +10,9 @@
   & img {
     border-radius: 50%;
     display: block;
-    height: 12rem;
-    margin: 0px auto;
-    width: 12rem;
+    height: 12rem !important;
+    margin: 0 auto !important;
+    width: 12rem !important;
   }
 
   & .split {
