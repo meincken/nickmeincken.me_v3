@@ -98,13 +98,14 @@ ul {
 }
 
 @media print {
-  html,
-  body {
-    colour: var(--black)
+  .resume {
+    background: var(--white);
+    color: var(--black);
   }
   
   .resume-body {
     grid-template-columns: 20rem 1fr;
+    gap: 2rem;
   }
 
   .hidden-print-block {
