@@ -15,7 +15,7 @@ const Profile = ({ aboutme }) => (
         <div className="split">
           <p>nick@meincken.com</p>
           <div>
-            <Link className='btn' to={`/nick-meincken-resume.pdf`} download>
+            <Link className='btn' to={`/nick-meincken-resume.pdf`} download="test">
               Download Resume PDF
             </Link>
             <Link className='btn' to="/nick-meincken-resume.docx" download>Download Resume DOC</Link>
