@@ -49,7 +49,7 @@ Most recently I have expanded my skill set into developing components for AEM, u
 
 Support for AEM front end builds by improving page performance and optimisation of legacy code base. Working as part of a team spread across the globe to provide an excellent service to our clients.
 
-#### Technologies and skills::
+#### Technologies and skills:
   - AEM
   - DAM
   - CSS
@@ -63,7 +63,7 @@ Building a scalable design system for migrating a large number of sites from dif
 
 Delivering the proof of concept to the client via a well documented presentations and videos.
 
-#### Technologies and skills::
+#### Technologies and skills:
   - BuildScripts
   - SCSS
   - AEM
@@ -76,7 +76,7 @@ Delivering the proof of concept to the client via a well documented presentation
 
 Providing support and minor bug fixing for AEM frontend builds.
 
-#### Technologies and skills::
+#### Technologies and skills:
   - AEM
   - (S)CSS
   - TypeScript
@@ -88,7 +88,7 @@ Providing support and minor bug fixing for AEM frontend builds.
 
 Building a profile builder for an external client in NextJS with GraphQL and D3js. Adding in linting tools and styled-components to the build to improve developer workflow and also adding in prettier config to keep the development process clean and tidy. Setting up rules for the code base.
 
-#### Technologies and skills::
+#### Technologies and skills:
   - NextJS
   - GraphQL
   - prettier
@@ -101,7 +101,7 @@ Building a profile builder for an external client in NextJS with GraphQL and D3j
 
 Helping with support of client development adding new features and components to their Shopify themes and also bug fixing existing components.
 
-#### Technologies and skills::
+#### Technologies and skills:
 
   - Shopify
   - SCSS
@@ -118,7 +118,7 @@ Helping with support of client development adding new features and components to
 
 Full stack dev, dealing with build and deployment of new features on the Crabtree & Evelyn website. Built on Shopify and migrating to a distributed development process with Bitbucket integration to setting up deployment environments.
 
-#### Technologies and skills::
+#### Technologies and skills:
 
   - Shopify
   - Liquid
@@ -131,7 +131,7 @@ Full stack dev, dealing with build and deployment of new features on the Crabtre
 
 Grundfos is a globally recognised company which develops water solutions around the world. Building components for AEM in standard HTM in Sightly but also utilising a custom VueJS front end design system using BEM Atomic Design principles.
 
-#### Technologies and skills::
+#### Technologies and skills:
 
 - AEM, VueJS, SCSS
 - Atomic BEM
@@ -144,7 +144,7 @@ Grundfos is a globally recognised company which develops water solutions around 
 
 Front end developer role with minimal back end skills for Shopify. Building online shopping portal for a luxury brand.
 
-#### Technologies and skills::
+#### Technologies and skills:
 
 - Shopify, Liquid, SCSS
 - jQuery, jQueryUI
@@ -155,7 +155,7 @@ Front end developer role with minimal back end skills for Shopify. Building onli
 
 Building AEM components for Siemens using postcss and PatternLab. This project contained the use of Stylelint, PostCSS and BEM within Gulp. It drew in a lot of style rules from other projects created by Signal Noise for Siemens.
 
-#### Technologies and skills::
+#### Technologies and skills:
 
 - PostCSS, Stylelint, BEM
 - PatternLab, Handlebars
@@ -167,7 +167,7 @@ Building AEM components for Siemens using postcss and PatternLab. This project c
 
 Building components around the bootstrap framework for a Medical website utilising Handlebars, LESS and jQuery. Sample components and page templates for a CMS. Built the base for reusable components and sections.
 
-#### Technologies and skills::
+#### Technologies and skills:
 
 - Less, Gulp
 - Handlebars, GIT
@@ -179,7 +179,7 @@ Building components around the bootstrap framework for a Medical website utilisi
 
 BT is a globally recognized telecoms brand. I have been working as part of the Marketing, Brand and Data teams in rebuilding their email templates in AEM for integration into ACM. My main task has been migrating and updating the email templates within AEM to be responsive with more control for the user. I have also worked on a number microsites for campaigns within ACM (Adobe Campaign).
 
-#### Technologies and skills::
+#### Technologies and skills:
 
 - AEM, ACM, GIT
 - Granite UI, Touch UI, HTL
@@ -194,7 +194,7 @@ BT is a globally recognized telecoms brand. I have been working as part of the M
 
 GTA Travel have been powering global travel for 40 years. I came on board as part of the marketing team to work on marketing projects and general site optimisation. I am also part of a wider group that has been tasked to create new components and develop a style guide for the site.
 
-#### Technologies and skills::
+#### Technologies and skills:
 
 - SCSS, React, ATG, Jira, GIT
 - Sketch, PhotoShop, InDesign
@@ -207,7 +207,7 @@ GTA Travel have been powering global travel for 40 years. I came on board as par
 
 Working as part of a small agile development team in Old Street on a high quality, design led project updating a boutique travel website. Building on modular patterns for CSS, JS and HTML for a CMS.
 
-#### Technologies and skills::
+#### Technologies and skills:
 
 - SCSS, jQuery, jQueryUI, Jira, GIT
 - Sketch, Handlebars, WebPack
@@ -219,7 +219,7 @@ Working as part of a small agile development team in Old Street on a high qualit
 
 Working as part of a small development team building custom websites for corporate finance using .Net and Umbraco. I provided support for existing websites and updating an older site to newer code base and cleaning up the HTML.
 
-#### Technologies and skills::
+#### Technologies and skills:
 
 - SCSS, jQuery
 - Umbraco
@@ -231,7 +231,7 @@ Working as part of a small development team building custom websites for corpora
 
 Cleaning up the code base of this prestige clothing brand and general site and performance improvements as well as building the new about pages on Wordpress and the updated Cycle Club section.
 
-#### Technologies and skills::
+#### Technologies and skills:
 
 - SCSS, jQuery, Java
 - Hybris CMS
@@ -245,7 +245,7 @@ Cleaning up the code base of this prestige clothing brand and general site and p
 
 Microsite for Blind Pig Cider using Wordpress with custom fields and utilising a mobile first design principle as well as improving the mixins for SCSS.
 
-#### Technologies and skills::
+#### Technologies and skills:
 
 - Custom Wordpress components
 - Wordpress
@@ -259,7 +259,7 @@ Microsite for Blind Pig Cider using Wordpress with custom fields and utilising a
 
 One of the UK's leading entertainment and communication providers, I was a member of a team of developers working on moving Virgin Media to a fully responsive website and migrating from multiple instances of CQ5 to a single version of AEM6. First hand experience with AEM adapting many of the core components within AEM to modified and customised versions specifically for Virgin Media, as well as custom components.
 
-#### Technologies and skills::
+#### Technologies and skills:
 
 - Usage of HTML5, jQuery and CSS3
 - Building online styleguide
@@ -277,7 +277,7 @@ One of the UK's leading entertainment and communication providers, I was a membe
 
 My main focus was working on a client intranet site built using Drupal.
 
-#### Technologies and skills::
+#### Technologies and skills:
 
 - Building a theme for Drupal
 - Component building
@@ -290,7 +290,7 @@ My main focus was working on a client intranet site built using Drupal.
 
 I was assigned to work on one of their clients year end report websites.
 
-#### Technologies and skills::
+#### Technologies and skills:
 
 - Content entry using their custom CMS
 - Basic HTML and CSS
