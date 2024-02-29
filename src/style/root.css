@@ -4,7 +4,8 @@
   --lightbg: #e1e1e1;
   --black: #000;
   --white: #fff;
-  --grid: [full-start] minmax(1rem, 1fr) [main-start] minmax(0px, 104rem) [main-end] minmax(1rem, 1fr) [full-end];
+  --grid: [full-start] minmax(1rem, 1fr) [main-start] minmax(0px, 104rem) [main-end]
+    minmax(1rem, 1fr) [full-end];
 }
 
 html {
@@ -13,13 +14,11 @@ html {
 }
 
 body {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-size: 1.6rem;
   font-weight: 200;
   line-height: 1.5;
 }
-
-
 
 .section {
   display: grid;
@@ -46,7 +45,7 @@ a {
 }
 
 svg {
-  fill: currentColor
+  fill: currentColor;
 }
 
 p,
@@ -67,7 +66,6 @@ h3 {
   font-size: 2rem;
 }
 
-
 .section {
   & .container {
     margin-top: 5rem;
@@ -78,7 +76,6 @@ h3 {
       grid-template-columns: 30rem 1fr;
     }
   }
-
 
   &:not(:last-child) {
     border-bottom: 0.1rem solid rgb(225, 225, 225);
@@ -99,7 +96,6 @@ h3 {
     }
   }
 
-
   & article {
     grid-column-start: 2;
     margin-bottom: 2rem;
@@ -117,8 +113,4 @@ h3 {
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.5s ease 0s;
-
-  &:hover {
-
-  }
 }
